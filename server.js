@@ -28,7 +28,7 @@ const db = mysql.createConnection({
   user: 'root', // Replace with your MySQL username
   password: '', // Replace with your MySQL password
   database: 'wishlist',
-  port: 3307,
+  port: 3306,
 });
 
 db.connect((err) => {
