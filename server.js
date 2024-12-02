@@ -24,7 +24,7 @@ app.use(bodyParser.json());
 
 // MySQL database connection
 const db = mysql.createConnection({
-  host: 'localhost',
+  host: 'host',
   user: 'root', // Replace with your MySQL username
   password: '', // Replace with your MySQL password
   database: 'wishlist',
